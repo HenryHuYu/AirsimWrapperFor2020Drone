@@ -1,0 +1,14 @@
+<launch>
+<!-- global params -->
+
+    <node name="airsim_client_node" pkg="airsim_client" type="airsim_client_node" output="screen">
+        
+    </node>
+     <node name="controller_node" pkg="airsim_client" type="controller_node" output="screen">
+        
+    </node>
+    <node name="cheat_node" pkg="airsim_client" type="cheat_node" output="screen">
+        
+    </node>
+
+</launch>
